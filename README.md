@@ -17,8 +17,8 @@ However, the generated executable is currently detected by 23 out of 72 AVs on V
 
 Before running this script, ensure you have the following:
 
-- PowerShell 5.1 or higher
 - Windows 10 or higher (due to specific features like `Add-MpPreference`)
+- PowerShell 5.1 or higher
 - PS2EXE: simply run `Install-Module -Name ps2exe ` in Windows Terminal or Powershell ([more information](https://www.powershellgallery.com/packages/ps2exe/1.0.13))
 
 ## 🚀 Usage
