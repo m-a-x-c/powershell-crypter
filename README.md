@@ -19,7 +19,7 @@ Before running this script, ensure you have the following:
 
 - PowerShell 5.1 or higher
 - Windows 10 or higher (due to specific features like `Add-MpPreference`)
-- PS2EXE ([DOWNLOAD](https://www.powershellgallery.com/packages/ps2exe/1.0.13))
+- PS2EXE: simply run `Install-Module -Name ps2exe ` in Windows Terminal or Powershell ([more information](https://www.powershellgallery.com/packages/ps2exe/1.0.13))
 
 ## 🚀 Usage
 
