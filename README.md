@@ -27,9 +27,9 @@ Before running this script, ensure you have the following:
 
 2. **▶️ Run the Encryption Script**: Execute the provided PowerShell script. When prompted, enter the full file path to the payload you wish to encrypt.
 
-3. **📬 Distribute and Execute**: The script outputs an encrypted version of your payload and a new PowerShell script (`packed.ps1`). You can convert this PowerShell script to an executable (`.exe`) for easier execution, as demonstrated in the script's final step.
+3. **📬 Distribute and Execute**: The script outputs an encrypted version of your payload and a new executable (`packed.exe`).
 
-4. **🎯 Execution on Target System**: Run the generated PowerShell script or executable on the target system. It will decrypt and execute the payload automatically.
+4. **🎯 Execution on Target System**: Run the generated executable on the target system. It will decrypt and execute the payload automatically.
 
 ## 💖 Acknowledgments
 
