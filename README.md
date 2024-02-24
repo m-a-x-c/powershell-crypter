@@ -38,7 +38,8 @@ Before running this script, ensure you have the following:
 3. Implement encryption manually
 4. Consider not adding directory of the packed executable to the exclusion list
 5. Add polymorphic and metamorphic components
-6. Research how AV detection works (https://wikileaks.org/ciav7p1/cms/files/BypassAVDynamics.pdf)
+6. Add section at beginning of decrypter which does something for few minutes (e.g. play silent audio)
+7. Research how AV detection works (https://wikileaks.org/ciav7p1/cms/files/BypassAVDynamics.pdf)
 
 ## 💖 Acknowledgments
 
