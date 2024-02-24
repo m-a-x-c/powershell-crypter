@@ -31,12 +31,6 @@ Before running this script, ensure you have the following:
 
 4. **🎯 Execution on Target System**: Run the generated PowerShell script or executable on the target system. It will decrypt and execute the payload automatically.
 
-## 🔐 Security Considerations
-
-- This tool is for educational and legitimate usage only. Users are responsible for adhering to legal guidelines and obtaining necessary permissions when handling and distributing payloads.
-- Keep the encryption key and IV secure. If these are compromised, the encryption of your payload can be reversed.
-- Regularly update your encryption methodology to stay ahead of security software detection capabilities.
-
 ## 💖 Acknowledgments
 
 - This script utilizes built-in PowerShell and .NET Framework capabilities for encryption and file handling.
