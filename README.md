@@ -3,7 +3,7 @@
 This PowerShell script facilitates the encryption of a binary payload file (e.g., an executable) and generates a new executable designed to decrypt and execute the encrypted payload on the target system. This tool aims to assist in secure payload delivery by leveraging encryption to avoid detection by security software.
 
 However, the generated executable is currently detected by 23 out of 72 AVs on VirusTotal, including by Microsoft Defender.
-![ViruslTotal Screenshot](virustotal.png")
+![VirusTotal Screenshot](virustotal.png)
 
 
 
