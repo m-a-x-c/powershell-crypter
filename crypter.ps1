@@ -59,7 +59,7 @@ Start-Sleep 3
 & `$execPath
 
 # Keep the shell up (otherwise comment this out)
-Read-Host -Prompt "Press Enter to continue"
+# Read-Host -Prompt "Press Enter to continue"
 "@
 
 # Save the script to disk
