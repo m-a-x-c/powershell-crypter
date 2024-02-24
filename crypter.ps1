@@ -66,8 +66,10 @@ Read-Host -Prompt "Press Enter to continue"
 $savePath = ".\packed.ps1"
 Set-Content -Path $savePath -Value $content
 
+# Convert the script into an executable
 Invoke-PS2EXE -inputFile $savePath -outputFile ".\packed.exe" -requireAdmin
 
+# Delete the script file
 Remove-Item -Path $savePath
 
 
