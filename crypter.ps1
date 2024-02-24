@@ -1,7 +1,6 @@
 # Ask the user for the directory
 $payloadFilepath = Read-Host "Enter the FULL file path of the payload file"
 
-# C:\Users\oven\Documents\Projects\other\payload.exe
 Write-Host "You entered: $payloadFilepath"
 
 # Read payload into memory
