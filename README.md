@@ -1,9 +1,11 @@
 # 🛡 PowerShell Payload Encryptor and Packer 📦
 
-This PowerShell script facilitates the encryption of a binary payload file (e.g., an executable) and generates a new executable designed to decrypt and execute the encrypted payload on the target system. This tool aims to assist in secure payload delivery by leveraging encryption to avoid detection by security software.
+This PowerShell script facilitates the encryption of a binary payload file (e.g., an executable) and generates a new executable stub and encrypted payload. The stub is designed to decrypt and execute the encrypted payload on the target system. This tool aims to assist in secure payload delivery by leveraging encryption to avoid detection by security software. This project is for educational purposes only. The author is not responsible for any misuse or damage caused by this script. Always ensure you have permission to run such scripts and tools in your environment.
+
+
 
 However, the generated executable is currently detected by 14 out of 72 AVs on VirusTotal, including by Microsoft Defender. Though, that's 47 less than the malware with no crypter.
-![VirusTotal Screenshot](virustotal.png)
+
 
 
 
