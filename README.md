@@ -29,7 +29,7 @@ Before running this script, ensure you have the following:
 
 1. **📁 Prepare Your Payload**: Ensure the binary file you intend to encrypt is accessible on your system.
 
-2. **▶️ Run the Encryption Script**: Execute the provided PowerShell script. When prompted, enter the full file path to the payload you wish to encrypt. Wait around 6 minutes for a 350 KB payload.
+2. **▶️ Run the Encryption Script (`crypter.ps1`)**: Execute the provided PowerShell script. When prompted, enter the full file path to the payload you wish to encrypt. Wait around 6 minutes for a 350 KB payload.
 
 3. **📬 Distribute and Execute**: The script outputs a stub (`vision.exe`) and an encrypted version of the payload (`users.csv`).
 
