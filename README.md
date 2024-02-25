@@ -5,7 +5,7 @@ This PowerShell script facilitates the encryption of a binary payload file (e.g.
 
 
 However, the generated executable is currently detected by 14 out of 72 AVs on VirusTotal, including by Microsoft Defender. Though, that's 47 less than the malware with no crypter.
-
+![VirusTotal Screenshot](virustotal_all.png)
 
 
 
