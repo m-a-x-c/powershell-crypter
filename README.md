@@ -14,8 +14,8 @@ Note that the generated executable is currently detected by 14 out of 72 AVs on 
 - **🔒 Payload Encryption**: Encrypts any binary file (e.g., an executable payload) using custom RC4 encryption functions. No encryption API calls are made as that is what AVs look for.
 - **📄 Automatic Executable Generation**: Generates an executable capable of decrypting and executing the encrypted payload.
 - **👻 Stealth Enhancements**: Includes steps to hide the execution directory and exclude it from Windows Defender scans, reducing the chance of detection.
-- ** Microsoft Defender Evation**: Encrypts the PowerShell command which adds the folder containing the raw payload to Microsoft Defender's exclusions (AV flags it otherwise)
-- ** Polymorphism**: The payload file (the CSV file) changes every time it is created.
+- **Microsoft Defender Evation**: Encrypts the PowerShell command which adds the folder containing the raw payload to Microsoft Defender's exclusions (AV flags it otherwise)
+- **Polymorphism**: The payload file (the CSV file) changes every time it is created.
 
 ## 📋 Prerequisites
 
